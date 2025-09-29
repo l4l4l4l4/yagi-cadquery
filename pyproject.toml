@@ -1,0 +1,13 @@
+[project]
+name = "yagi-cadquery"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cadquery>=2.5.2",
+    "ocp-vscode>=2.9.0",
+]
+
+[tool.uv.sources]
+cadquery-server = { git = "https://github.com/l4l4l4l4/cadquery-server" }
